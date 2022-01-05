@@ -1,0 +1,59 @@
+PODS:
+  - BitByteData (2.0.1)
+  - SWCompression (4.7.0):
+    - BitByteData (~> 2.0)
+    - SWCompression/BZip2 (= 4.7.0)
+    - SWCompression/Deflate (= 4.7.0)
+    - SWCompression/GZip (= 4.7.0)
+    - SWCompression/LZ4 (= 4.7.0)
+    - SWCompression/LZMA (= 4.7.0)
+    - SWCompression/LZMA2 (= 4.7.0)
+    - SWCompression/SevenZip (= 4.7.0)
+    - SWCompression/TAR (= 4.7.0)
+    - SWCompression/XZ (= 4.7.0)
+    - SWCompression/ZIP (= 4.7.0)
+    - SWCompression/Zlib (= 4.7.0)
+  - SWCompression/BZip2 (4.7.0):
+    - BitByteData (~> 2.0)
+  - SWCompression/Deflate (4.7.0):
+    - BitByteData (~> 2.0)
+  - SWCompression/GZip (4.7.0):
+    - BitByteData (~> 2.0)
+    - SWCompression/Deflate
+  - SWCompression/LZ4 (4.7.0):
+    - BitByteData (~> 2.0)
+  - SWCompression/LZMA (4.7.0):
+    - BitByteData (~> 2.0)
+  - SWCompression/LZMA2 (4.7.0):
+    - BitByteData (~> 2.0)
+    - SWCompression/LZMA
+  - SWCompression/SevenZip (4.7.0):
+    - BitByteData (~> 2.0)
+    - SWCompression/LZMA2
+  - SWCompression/TAR (4.7.0):
+    - BitByteData (~> 2.0)
+  - SWCompression/XZ (4.7.0):
+    - BitByteData (~> 2.0)
+    - SWCompression/LZMA2
+  - SWCompression/ZIP (4.7.0):
+    - BitByteData (~> 2.0)
+    - SWCompression/Deflate
+  - SWCompression/Zlib (4.7.0):
+    - BitByteData (~> 2.0)
+    - SWCompression/Deflate
+
+DEPENDENCIES:
+  - SWCompression (~> 4.7)
+
+SPEC REPOS:
+  trunk:
+    - BitByteData
+    - SWCompression
+
+SPEC CHECKSUMS:
+  BitByteData: a86c7d4cdcd9e3aa6a995ca9b1625e65fac247cf
+  SWCompression: 64f2d72964027cd962d4ae75089f33f57da18e11
+
+PODFILE CHECKSUM: 69201c551245ec88394cb0f988813bfe017be647
+
+COCOAPODS: 1.11.2
